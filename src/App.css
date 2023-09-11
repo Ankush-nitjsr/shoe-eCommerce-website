@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 72px;
+}
+
+.navbar > img {
+    height: 40px;
+}
+
+.navbar > ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    color: #2E2E2E;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+button {
+    /* to reset all inherited style, we will use all: unset */
+    all: unset;
+    height: 32px;
+    padding: 6px 16px;
+    background-color: #D01C28;
+    color: white;
+    font-weight: 500;
+}
+
+.body-content {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: calc(100vh - 72px - 100px);
+}
+
+.body-content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.body-content1 > h1 {
+    line-height: 102px;
+    font-size: 7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.body-content1 > p {
+    font-weight: 600;
+    color: #2E2E2E;
+    max-width: 404px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 40px;
+}
+
+.category-btn {
+    background-color: transparent;
+    color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+}
+
+.shopping-section > p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.brand-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (max-width: 1024px) {
+    .body-content1 > h1 {
+        font-size: 5rem;
+        line-height: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .body-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .body-content1 > h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .body-content1 > p {
+        font-weight: 400;
+    }
+    .body-content2 > img {
+        width: 80%;
+    }
+}
