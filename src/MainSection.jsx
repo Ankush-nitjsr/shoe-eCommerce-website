@@ -11,8 +11,8 @@ function MainSection () {
                 <div className="shopping-section">
                     <p>Also Available On</p>
                     <div className="brand-icons">
-                        <img src='/images/flipkart.png' alt='flipkart link'></img>
-                        <img src="/images/amazon.png" alt="amazon link" />
+                        <img src='public/images/flipkart.png' alt='flipkart link'></img>
+                        <img src="public/images/amazon.png" alt="amazon link" />
                     </div>
                 </div>
             </div>
